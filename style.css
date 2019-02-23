@@ -16,16 +16,20 @@ body{
 /*!495 960 for overall*/
 header{
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: gray;
-    background: black;
+    background: white;
 }
 
 nav{
     padding: 20px;
     margin-bottom: 20px;
     color: gray;
-    background:orange;
+    background: white;
+}
+
+.movedown{
+    padding: 40px 60px 30px 
 }
 
 #left{
@@ -33,52 +37,55 @@ nav{
     width: 60%;
     height: 350px;
     position: relative;
-
     color: gray;
-    background: brown;
+    background: white;
     z-index: 10;
 }
 
 #right{
     float: left;
-    width: 40%;
+    width: 38%;
     height: 350px;
     margin-bottom: 20px;
+    margin-left: 18px;
     color: gray;
-    background:green;
+    background:white;
 }
 
 #article{
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 20px;
     margin-right: 20px;     
     margin-bottom: 20px;
     position: relative;
-    height: 200px;
+    height: 250px;
     length: 500px;
     padding: 20px;
-    color: gray;
-    background: red;
+    color: white;
+    background: #777777;
 }
 
 .smbox{
     position: relative;
-    height: 50px;
+    top: 40px;
+    height: 70px;
     length: 450px;
-    color: gray;
-    background: purple;
+    text-align: center;
+    line-height: 25px;
+    color: #777777;
+    background: white;
 }
 
 #par{
     position: absolute;
     right: 0px;
-    top: 70px;
+    top: 90px;
     left: 0px;
-    height: 50px;
+    height: 70px;
     length: 600px;
     padding: 20px;
-    color: red;
-    background: yellow;
+    color: #777777;
+    background: white;
     z-index: 20;
 }
 /*width: 450px;*/
